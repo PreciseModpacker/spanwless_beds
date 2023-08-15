@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.khajiitos.spawnlessbeds.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "spawnlessbeds.refmap.json",
+  "mixins": [
+    "BedBlockMixin",
+    "ServerPlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
